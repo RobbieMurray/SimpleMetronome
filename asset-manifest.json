@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SimpleMetronome/static/css/main.e3c4e1fb.chunk.css",
+    "main.js": "/SimpleMetronome/static/js/main.8e973a97.chunk.js",
+    "main.js.map": "/SimpleMetronome/static/js/main.8e973a97.chunk.js.map",
+    "runtime-main.js": "/SimpleMetronome/static/js/runtime-main.7c99a90c.js",
+    "runtime-main.js.map": "/SimpleMetronome/static/js/runtime-main.7c99a90c.js.map",
+    "static/js/2.75094e6f.chunk.js": "/SimpleMetronome/static/js/2.75094e6f.chunk.js",
+    "static/js/2.75094e6f.chunk.js.map": "/SimpleMetronome/static/js/2.75094e6f.chunk.js.map",
+    "index.html": "/SimpleMetronome/index.html",
+    "precache-manifest.46d9a23d7d581a6efc965265ab0a4462.js": "/SimpleMetronome/precache-manifest.46d9a23d7d581a6efc965265ab0a4462.js",
+    "service-worker.js": "/SimpleMetronome/service-worker.js",
+    "static/css/main.e3c4e1fb.chunk.css.map": "/SimpleMetronome/static/css/main.e3c4e1fb.chunk.css.map",
+    "static/js/2.75094e6f.chunk.js.LICENSE.txt": "/SimpleMetronome/static/js/2.75094e6f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c99a90c.js",
+    "static/js/2.75094e6f.chunk.js",
+    "static/css/main.e3c4e1fb.chunk.css",
+    "static/js/main.8e973a97.chunk.js"
+  ]
+}
