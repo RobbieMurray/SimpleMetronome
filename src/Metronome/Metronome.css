@@ -1,0 +1,92 @@
+.play-button{
+    background-color: #348ad1;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 15px 32px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    outline: none;
+  }
+
+.tempo-display{
+    font-size: calc(10px + 2vmin);
+    border:none;
+    outline:none;
+    background-color: #282c34;
+    color: white;
+    width: 60px;
+    border-bottom: solid 3px lightgray;
+    margin: 10px;
+}
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+    display: flex;
+    align-items: center;
+    /* Vertical alignment */
+    justify-content: flex-start;
+    /* Horizontal alignment */
+}
+
+
+.tempo-button{
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    background: none;
+    background-color: none;
+    align-content: center;
+    text-align: center;
+    border-radius: 50%;
+    border: solid 2px;
+    cursor: pointer;
+    margin: 5px;
+    outline: none;
+}
+
+.tempo-button:active {
+	position:relative;
+	top:2px;
+}
+  
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 60%; /* Full-width */
+    height: 7px; /* Specified height */
+    border-radius: 5px;
+    margin: 5px;
+    background: #585858; 
+    outline: none; 
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%;
+    background: #e2e2e2; 
+    cursor: pointer; 
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%;
+    background: #e2e2e2;
+    cursor: pointer; 
+  }
